@@ -1,0 +1,218 @@
+@import './Style.scss';
+
+.Body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .Personality {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .Avatar {
+            padding: 24px;
+            .Photo {
+                background-image: url('https://i.ibb.co/jZDWdPJ/Round-Avatars-Image.png');
+                height: 118px;
+                width: 118px;
+                background-position: center;
+                background-size: 100%;
+                border-radius: 50%;
+                position: relative;
+                .Circle {
+                    height: 32px;
+                    width: 32px;
+                    border: solid;
+                    border-width: 2px;
+                    border-color: $White;
+                    border-radius: 50%;
+                    background-color: #6200EE;
+                    position: absolute;
+                    right: 0;
+                    bottom: 0;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    .ChangePhoto {
+                        height: 12px;
+                        width: 12px;
+                        background-size: 100%;
+                        background-image: url('../icons/Round\ Avatars-Vector.svg');
+                    }
+                }
+            }
+        }
+        .UserName {
+            @include SubTitle1();
+            color: #151522;
+            width: 95px;
+        }
+        .UserJob {
+            @include Caption();
+            color: $Gray2;
+            width: 58px;
+            height: 16px;
+            margin-bottom: 24px;
+        }
+    }
+    .Line {
+        width: 325px;
+        height: 1px;
+        background-color: #21212114;
+    }
+    .SelectSpace {
+        align-self: start;
+        .Select {
+            margin-left: 16px;
+            margin-top: 12px;
+            @include Body1();
+            color: #212121;
+        }
+        .Selectors {
+            display: flex;
+            flex-direction: row;
+            margin-left: 8px;
+            margin-top: 12px;
+            margin-bottom: 16px;
+        }
+    }
+    .Friendship {
+        align-self: start;
+        .FriendTitle {
+            margin-left: 16px;
+            margin-top: 16px;
+            @include Body1();
+            color: #212121;
+        }
+        .FriendList {
+            .Line2 {
+                height: 1px;
+                width: 288px;   
+                background-color: #21212114;
+                margin-top: 16px;
+                margin-left: 72px;
+            }
+            .ButtonFriend {
+                height: 36px;
+                width: 328px;
+                background-image: url('../icons/Flexible-Outline-IconRight-Primary-icon-content-add_24px.svg');
+                border: solid;
+                border-width: 1px;
+                border-color: #0000001F;
+                border-radius: 4px;
+                margin: 16px;
+                margin-top: 38px;
+                display: flex;
+                .TitleArea {
+                    display: flex;
+                    margin: auto;
+                    height: 24px;
+                    width: 120px;
+                    position: relative;
+                    .AddTitle {
+                        @include BUTTON();
+                    }
+                    .Symbol {
+                        height: 14px;
+                        width: 14px;
+                        background-image: url('../icons/add_24px.svg');
+                        position: absolute;
+                        right: 0;
+                        bottom: 5px;
+                    }
+                }
+            }
+        }
+    }
+    .MediaArea {
+        display: flex;
+        flex-direction: column;
+        align-self: start;
+        .MediaTitle {
+            margin: 16px;
+            @include HeadLine5();
+            color: #212121;
+        }
+        .Album {
+            margin-left: 18px;
+            .Row1 {
+                display: flex;
+                flex-direction: row; 
+            }
+            .Row2 {
+                display: flex;
+                flex-direction: row; 
+                margin-top: 13px;
+            }
+            .Row3 {
+                display: flex;
+                flex-direction: row; 
+                margin-top: 13px;
+            }
+        }
+        .ButtonsSpace {
+            display: flex;
+            flex-direction: row;
+            margin: 16px;
+            .ButtonDelete {
+                height: 36px;
+                width: 156px;
+                display: flex;
+                border: solid;
+                border-radius: 4px;
+                border-width: 1px;
+                border-color: #0000001F;
+                .TitleD {
+                    margin: auto;
+                    @include BUTTON();
+                    color: #6200EE;
+                }
+            }    
+            .ButtonDelete:active {
+                height: 36px;
+                width: 156px;
+                display: flex;
+                border: solid;
+                border-radius: 4px;
+                border-width: 1px;
+                border-color: #0000001F;
+                background-color: #6200EE;
+                .TitleD {
+                    margin: auto;
+                    @include BUTTON();
+                    color: #FFFFFF;
+                }        
+            }
+            .ButtonAdd {
+                height: 36px;
+                width: 156px;
+                margin-left: 16px;
+                display: flex;
+                border: solid;
+                border-radius: 4px;
+                border-width: 1px;
+                border-color: #0000001F;
+                .TitleA {
+                    margin: auto;
+                    @include BUTTON();
+                    color: #6200EE;
+                }
+            }
+            .ButtonAdd:active {
+                height: 36px;
+                width: 156px;
+                margin-left: 16px;
+                display: flex;
+                border: solid;
+                border-radius: 4px;
+                border-width: 1px;
+                border-color: #0000001F;
+                background-color: #6200EE;
+                .TitleA {
+                    margin: auto;
+                    @include BUTTON();
+                    color: #FFFFFF;
+                }
+            }
+        }
+    }
+}

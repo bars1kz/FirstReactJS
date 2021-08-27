@@ -1,0 +1,14 @@
+@import './Style.scss';
+
+body {
+    outline: none;
+    margin: 0;
+    width: 360px;
+    margin: auto;
+    background-color: gray;
+}
+.App {
+    background-color: $White;
+    display: flex;
+    flex-direction: column;
+}

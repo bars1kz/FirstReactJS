@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+// COLORS
+$Violet_700:    #3700B3;
+$Violet_500:    #6200EE;
+$Violet_20:     #BA86FC;
+$Teal_200:      #03DAC6;
+$Red_700:       #B00020;
+$Red_200:       #CF6679;
+$White:         #FFFFFF;
+$Gray_200:      #F5F5F5;
+$Gray_900:      #121212;
+$Black:         #000000;
+
+$Gray2:         #666666;
+
+
+// FONTS
+@mixin HeadLine3{
+    font: {
+        family:         "Roboto";
+        size:           48px;
+        weight:         400;
+    }
+    line-height:        64px;
+}     
+@mixin HeadLine4{
+    font: {
+        family:         "Roboto";
+        size:           34px;
+        weight:         400;
+    }
+    line-height:        40px;
+    letter-spacing:     .25px;
+} 
+@mixin HeadLine5{
+    font: {
+        family:         "Roboto";
+        size:           24px;
+        weight:         400;
+    }
+    line-height:        32px;
+}
+@mixin HeadLine6{
+    font: {
+        family:         "Roboto";
+        size:           20px;
+        weight:         500;
+    }
+    line-height:        28px;
+    letter-spacing:     .15px;
+}     
+@mixin SubTitle1{
+    font: {
+        family:         "Roboto";
+        size:           16px;
+        weight:         400;
+    }
+    line-height:        24px;
+    letter-spacing:     .15px;
+}     
+@mixin SubTitle2{
+    font: {
+        family:         "Roboto";
+        size:           14px;
+        weight:         500;
+    }
+    line-height:        20px;
+    letter-spacing:     .1px;
+}     
+@mixin BUTTON{
+    font: {
+        family:         "Roboto";
+        size:           14px;
+        weight:         500;
+    }
+    line-height:        24px;
+    letter-spacing:     1.5px;
+}    
+@mixin BUTTON2{
+    font: {
+        family:         "Roboto";
+        size:           14px;
+        weight:         500;
+    }
+    line-height:        16px;
+    letter-spacing:     1.25px;
+}      
+@mixin Body1{
+    font: {
+        family:         "Roboto";
+        size:           16px;
+        weight:         400;
+    }
+    line-height:        24px;
+    letter-spacing:     .44px;
+}         
+@mixin body2{
+    font: {
+        family:         "Roboto";
+        size:           14px;
+        weight:         400;
+    }
+    line-height:        20px;
+    letter-spacing:     .25px;
+}       
+@mixin Caption{
+    font: {
+        family:         "Roboto";
+        size:           12px;
+        weight:         400;
+    }
+    line-height:        20px;
+    letter-spacing:     .5px;
+}      
+@mixin Overline{
+    font: {
+        family:         "Roboto";
+        size:           16px;
+        weight:         400;
+    }
+    line-height:        24px;
+    letter-spacing:     1.5px;
+}     

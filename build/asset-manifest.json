@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "./static/css/main.9e6ffa5d.chunk.css",
+    "main.js": "./static/js/main.bcc28f81.chunk.js",
+    "main.js.map": "./static/js/main.bcc28f81.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.0c8bb963.js",
+    "runtime-main.js.map": "./static/js/runtime-main.0c8bb963.js.map",
+    "static/js/2.5e56b8f7.chunk.js": "./static/js/2.5e56b8f7.chunk.js",
+    "static/js/2.5e56b8f7.chunk.js.map": "./static/js/2.5e56b8f7.chunk.js.map",
+    "index.html": "./index.html",
+    "static/css/main.9e6ffa5d.chunk.css.map": "./static/css/main.9e6ffa5d.chunk.css.map",
+    "static/js/2.5e56b8f7.chunk.js.LICENSE.txt": "./static/js/2.5e56b8f7.chunk.js.LICENSE.txt",
+    "static/media/Hooter.scss": "./static/media/App Bar-icon-navigation-more_vert_24px.935f2acf.svg",
+    "static/media/Body.scss": "./static/media/add_24px.1dc0ba5e.svg",
+    "static/media/Media.scss": "./static/media/close_24px.6fe7987d.svg",
+    "static/media/Friends.scss": "./static/media/icon-navigation-close_24px.74c7a95d.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0c8bb963.js",
+    "static/js/2.5e56b8f7.chunk.js",
+    "static/css/main.9e6ffa5d.chunk.css",
+    "static/js/main.bcc28f81.chunk.js"
+  ]
+}

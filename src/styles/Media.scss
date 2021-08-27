@@ -1,0 +1,33 @@
+@import './Style.scss';
+
+.PhotoArea {
+    margin-right: 17.18px;
+    align-self: start;
+    .Image {
+        height: 96.62px;
+        width: 96.62px;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        position: relative;
+        .DeleteImg {
+            height: 20px;
+            width: 20px;
+            border: solid;
+            background-color: #CF6679;
+            border-radius: 50%;
+            border-color: $White;
+            border-width: 2px;
+            position: absolute;
+            right: 8px;
+            top: 8px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .XStyle {
+                height: 8px;
+                width: 8px;
+                background-image: url('../icons/close_24px.svg');
+            }
+        }
+    }
+}

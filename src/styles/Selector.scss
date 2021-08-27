@@ -1,0 +1,24 @@
+@import './Style.scss';
+
+.Selector {
+    .TypeSpace {
+        margin-left: 8px;
+        border-radius: 68px;
+        background-color:  #21212114;
+        padding: 6px 12px    ;
+        .Types {
+            @include body2();
+            color: rgba(0, 0, 0, 0.38);
+        } 
+    }
+    .TypeSpace:active {
+        margin-left: 8px;
+        border-radius: 68px;
+        background-color:  #F2E7FE;
+        padding: 6px 12px    ;
+        .Types {
+            @include body2();
+            color: #6200EE;
+        } 
+    }
+} 

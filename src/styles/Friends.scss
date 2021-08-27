@@ -1,0 +1,39 @@
+@import './Style.scss';
+
+.Form {
+    display: flex;
+    flex-direction: row;
+    margin-left: 16px;
+    margin-top: 16px;
+    position: relative;
+    .Ava {
+        height: 40px;
+        width: 40px;
+        border-radius: 50%;
+        //background-image: url('../img/Two-line-3.\ w-Avatar-A.Image-↳\ Image.png');
+        background-size: 100%;
+        margin-top: 2px;
+        margin-right: 16px;
+        background-position: center;
+    }
+    .UserInfo {
+        .User {
+            @include SubTitle1();
+            color: #000000DE;
+        }
+        .Job {
+            @include body2();
+            color: #00000099;   
+        }
+        .DeleteFriend {
+            width: 14px;
+            height: 14px;
+            background-image: url('../icons/icon-navigation-close_24px.svg');
+            background-repeat: no-repeat;
+            background-size: 100%;
+            position: absolute;
+            right: 21px;
+            bottom: 16px;
+        }
+    }
+}

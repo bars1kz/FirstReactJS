@@ -1,0 +1,31 @@
+@import './Style.scss';
+
+.Hooter {
+    padding: 13px 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-bottom: solid;
+    border-color: #21212114;
+    border-width: 1px; 
+    .back {
+        background-image: url('../icons/App\ Bar-Title\ Bar-icon-navigation-arrow_back_24px.svg');
+        height: 16px;
+        width: 16px;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .title{
+        @include HeadLine6();
+        width: 216px;
+        margin-left: 36px;
+    }
+    .menu {
+        background-image: url('../icons/App\ Bar-icon-navigation-more_vert_24px.svg');
+        width: 4px;
+        height: 16px;
+        background-repeat: no-repeat;
+        background-position: center;
+        margin-left: 49px;
+    }
+}
